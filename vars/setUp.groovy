@@ -7,7 +7,7 @@ def call(String name) {
   println i.script
   println i.address
 
-  def j = new Instance(this, name)
+  def j = new Instance(this, 'ANOTHER')
   j.setAddress()
   
   println j.address
