@@ -5,6 +5,7 @@ def call(String name) {
   println i.getAddress()
   println i.name
   println i.script
+  println i.address
 
   def j = new Instance(this, name)
   j.setAddress()
