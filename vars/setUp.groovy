@@ -10,6 +10,7 @@ def call(String name) {
   def j = new Instance(this, name)
   j.setAddress()
   
+  println j.address
   println i.getAddress()
   println j.getAddress()
 }
