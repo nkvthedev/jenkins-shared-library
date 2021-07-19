@@ -11,6 +11,7 @@ def call(String name) {
   j.setAddress()
   
   println j.address
+  println j.name
   println i.getAddress()
   println j.getAddress()
 }
