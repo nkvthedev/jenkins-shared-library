@@ -1,6 +1,6 @@
 package com.local
 
-Class Instance {
+class Instance {
   def name = 'DEFAULT'
   def address = 'DEFAULT_ADDRESS'
 
