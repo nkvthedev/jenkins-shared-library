@@ -12,4 +12,8 @@ Class Instance {
   def getAddress() {
     return this.address
   }
+  
+  def setAddress() {
+    address = 'NEW_ADDRESS'
+  }
 }
