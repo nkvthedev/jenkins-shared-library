@@ -11,7 +11,7 @@ class Instance {
   }
   
   def getAddress() {
-    return this.address
+    return address
   }
   
   def setAddress() {
