@@ -5,7 +5,7 @@ class Instance {
   def address = 'DEFAULT_ADDRESS'
   def script = null
 
-  Instance(def script, String name) {
+  Instance(def script, String name=name) {
     this.script = script
     this.name = name
   }
