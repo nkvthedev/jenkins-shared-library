@@ -4,7 +4,7 @@ def call(String name, Closure block) {
   }
 }
 
-def disconnect(String name) {
+def disconnect(String name, Closure block) {
   if (name == '') {
     block()
   }
