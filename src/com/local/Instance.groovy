@@ -11,10 +11,10 @@ class Instance {
   }
   
   def getAddress() {
-    return address
+    return this.address
   }
   
   def setAddress() {
-    address = 'NEW_ADDRESS'
+    this.address = 'NEW_ADDRESS'
   }
 }
