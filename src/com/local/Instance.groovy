@@ -6,7 +6,6 @@ class Instance {
 
   Instance(def script, String input_name) {
     this.script = script
-    this.script.println this
     this.name = input_name
     this.script.echo this.name
   }
