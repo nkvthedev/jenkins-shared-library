@@ -6,6 +6,7 @@ def call(String name, Closure block) {
 }
 
 def disconnect(String name, Closure block) {
+  println this.jobname
   if (name == '') {
     block()
   }
