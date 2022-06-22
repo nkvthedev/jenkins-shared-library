@@ -10,6 +10,6 @@ class Instance {
   }
   
   def running_tests() {
-    execute()
+    this.script.execute()
   }
 }
