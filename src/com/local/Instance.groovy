@@ -1,21 +1,20 @@
 package com.local
 
 class Instance {
-  def name = 'DEFAULT'
-  def address = 'DEFAULT_ADDRESS'
+  def default_name = 'DEFAULT_NAME'
+  def default_addr = 'DEFAULT_ADDRESS'
   def script = null
 
   Instance(def script, String input_name) {
     this.script = script
     this.name = input_name
-    this.defaultname = name
   }
   
   def getAddress() {
-    return this.address
+    return this.default_addr
   }
   
   def setAddress() {
-    this.address = 'NEW_ADDRESS'
+    this.default_addr = 'NEW_ADDRESS'
   }
 }
