@@ -1,7 +1,8 @@
 import com.local.Instance
 
 def call(String name) {  
-  this.echo "Hey There"
+  this.echo "test1"
+  echo "test2"
   def i = new Instance(this, name)
   println i.name
   
