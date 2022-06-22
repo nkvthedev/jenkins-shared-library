@@ -9,7 +9,7 @@ def call(String name, Closure block) {
 }
 
 def defineVariables() {
-  def instance = 'instance1'
+  def this.instance = 'instance1'
 }
 
 def disconnect(String name, Closure block) {
