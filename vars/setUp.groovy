@@ -2,16 +2,12 @@ import com.local.Instance
 
 def call(String name) {  
   def i = new Instance(this, name)
-  println i.getAddress()
   println i.name
-  println i.script
-  println i.address
-
-  def j = new Instance(this, 'ANOTHER')
-  j.setAddress()
+  println i.default_addr
+  println i.default_name
   
-  println j.address
-  println j.name
-  println i.getAddress()
-  println j.getAddress()
+  def j = new Instance(this, 'ANOTHER_NAME')
+  println i.name
+  println i.default_addr
+  println i.default_name
 }
