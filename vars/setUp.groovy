@@ -11,4 +11,9 @@ def call(String name) {
   
   def j = new Instance(this, 'ANOTHER_NAME')
   println j.name
+
+  j.name = 'NEW_NAME'
+  println i.name
+  println j.name
+
 }
