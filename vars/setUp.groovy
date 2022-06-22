@@ -8,9 +8,12 @@ def call(String name) {
   def i = new Instance(this, name)
   println i.name
   i.running_tests()
+  i.set_age()
+  println i.age
   
   def j = new Instance(this, 'ANOTHER_NAME')
   println j.name
+  println j.age
 
   j.name = 'NEW_NAME'
   println i.name
