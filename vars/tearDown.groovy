@@ -1,4 +1,5 @@
 def call(String name, Closure block) {
+  this.jobname = 'JOB1'
   if (name == '') {
     block()
   }
