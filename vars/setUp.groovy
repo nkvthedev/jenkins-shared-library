@@ -1,6 +1,7 @@
 import com.local.Instance
 
-def call(String name) {  
+def call(String name) {
+  println this
   this.echo "test1"
   echo "test2"
   execute()
