@@ -6,6 +6,7 @@ def call(String name) {
   execute()
   def i = new Instance(this, name)
   println i.name
+  i.running_tests()
   
   def j = new Instance(this, 'ANOTHER_NAME')
   println j.name
