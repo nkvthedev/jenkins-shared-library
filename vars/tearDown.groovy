@@ -10,7 +10,8 @@ def call(String name, Closure block) {
   println this.instance2
 
   if (name == '') {
-    block()
+    block() // The closure can be invoked either by using just the name of the variable i.e. block(), or by specifically calling the 
+    // call() method as block.call()
   }
 }
 
