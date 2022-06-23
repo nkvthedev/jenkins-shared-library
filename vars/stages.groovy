@@ -1,4 +1,4 @@
-Closure run() {
+Closure get() {
   return {
     stage('stage1') {
       steps {
