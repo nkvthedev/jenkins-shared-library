@@ -12,7 +12,7 @@ class Instance {
   }
 
   def set_age() {
-    echo this.age
+    this.script.echo this.age
     this.age = 20
     // age = 20 would also setup the property "age" of this class with value 20.
     // addr = 'ABCD' would throw an error because "addr" has not be defined as a "property" of the class after the line 3 above.
