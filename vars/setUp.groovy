@@ -1,9 +1,9 @@
 import com.local.Instance
 
-def call(String name) {
+def call(String name, def script) {
   println this
   println this.job_name
-  println this.jn
+  println this.script.jn
   this.echo "test1"
   echo "test2"
   execute()
