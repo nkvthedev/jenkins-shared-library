@@ -5,6 +5,9 @@ def call(String name, def script) {
   // Any variable defined in the Jenkinsfile using the "def" keyword becomes like a property of a class named Jenkinsfile. There is one object of this
   // Jenkinsfile class created when running a pipeline job and all singleton classes defined inside the vars folder act as methods of this class, and
   // hence these singletons are able to access the properties using either the name of the property or this.<property>.
+  // Likewise the other singletons defined inside the vars folder act as other methods of the object created for the Jenkinsfile class, and hence any
+  // singleton of the vars folder can directly access any other singleton of the vars folder by just calling it by its name or using this.<singleton>
+  // to invoke the method.
   println job_name // 'job_name' is not defined in this groovy file, instead it is defined in the Jenkinsfile using "def jobname" and acts as a
   // property of the class Jenkinsfile. This property is therefore also accessible using 'this.job_name' below.
   println this.job_name
