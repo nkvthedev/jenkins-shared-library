@@ -20,7 +20,7 @@ def defineVariables() {
 def disconnect(String name, Closure block) {
   println this.jobname
 //   println testname
-//   println this.testname
+  println this.testname
   println this.instance
   if (name == '') {
     block()
