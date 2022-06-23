@@ -1,5 +1,5 @@
 def call(String name, Closure block) {
-  testname = 'test1'
+  def testname = 'test1'
   this.jobname = 'JOB1'
   println this.instance
   println instance
