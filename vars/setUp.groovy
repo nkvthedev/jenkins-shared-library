@@ -3,8 +3,8 @@ import com.local.Instance
 def call(String name, def script) {
   println this
   println job_name
-  println this.job_name
-  println script.jn
+//   println this.job_name
+//   println script.jn
   this.echo "test1"
   echo "test2"
   execute()
