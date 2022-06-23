@@ -32,7 +32,8 @@ def call(String name, def script) {
   println i.name
   println j.name
   
-  param1 = 'param1'
+  param1 = 'param1' // Since param1 is not defined in this method using the def keyword so jenkins refers to the param1 as a "property" of the object
+  // created for the Jenkinsfile class. This property must therefore be defined within the Jenkinsfile using the def keyword.
   this.param2 = 'param2'
 
 }
