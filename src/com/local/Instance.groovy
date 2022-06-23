@@ -11,7 +11,8 @@ class Instance {
   }
 
   def set_age() {
-    def age = 20
+    this.age = 20
+    def addr = 'ABCD'
   }
 
   def running_tests() {
