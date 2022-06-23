@@ -3,6 +3,7 @@ def call(String name, Closure block) {
   this.jobname = 'JOB1'
   println this.instance
   println instance
+  this.instance = 'changed_instance'
   println instance2
   println this.instance2
 
