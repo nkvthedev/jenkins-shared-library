@@ -18,7 +18,8 @@ def defineVariables() {
 }
 
 def disconnect(String name, Closure block) {
-  println this.jobname
+  def jobname = 'JOB2'
+//  println this.jobname
   println jobname
 //   println testname
   println this.testname
