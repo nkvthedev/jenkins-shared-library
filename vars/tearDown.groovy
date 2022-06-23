@@ -3,6 +3,8 @@ def call(String name, Closure block) {
   this.jobname = 'JOB1'
   println this.instance
   println instance
+  println instance2
+  println this.instance2
 
   if (name == '') {
     block()
