@@ -8,7 +8,8 @@ class Instance {
 
   Instance(def script, String input_name) {
     this.script = script
-    this.name = input_name
+    //this.name = input_name
+    name = input_name
   }
 
   def set_age() {
