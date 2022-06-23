@@ -1,4 +1,4 @@
-def run() {
+Closure run() {
   return {
     stage('stage1') {
       steps {
