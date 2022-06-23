@@ -13,7 +13,9 @@ class Instance {
 
   def set_age() {
     this.age = 20
-    def addr = 'ABCD'
+    // age = 20 would also setup the property "age" of this class with value 20.
+    // addr = 'ABCD' would throw an error because "addr" has not be defined as a "property" of the class after the line 3 above.
+    def addr = 'ABCD' // When using the def keyword you are just setting up a local variable for the method, not a property of the class.
   }
 
   def running_tests() {
