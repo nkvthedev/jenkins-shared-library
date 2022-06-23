@@ -1,5 +1,5 @@
 def call(String name, Closure block) {
-  def testname = 'test1'
+  this.testname = 'test1'
   this.jobname = 'JOB1'
   println this.instance
   println instance
@@ -19,6 +19,7 @@ def defineVariables() {
 
 def disconnect(String name, Closure block) {
   println this.jobname
+  println jobname
 //   println testname
   println this.testname
   println this.instance
