@@ -4,7 +4,7 @@ class Instance {
   // All properties of the class must be defined here.
   def script = null
   def name = ''
-  def age = null
+  def age
 
   Instance(def script, String input_name) {
     this.script = script
