@@ -23,6 +23,6 @@ class Instance {
   }
   
   def print_vars() {
-    this.script.job_name
+    println this.script.job_name
   }
 }
