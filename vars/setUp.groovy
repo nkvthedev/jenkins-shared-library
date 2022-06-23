@@ -3,6 +3,7 @@ import com.local.Instance
 def call(String name) {
   println this
   println this.job_name
+  println jn
   this.echo "test1"
   echo "test2"
   execute()
