@@ -26,7 +26,7 @@ def disconnect(String name, Closure block) {
 //   println testname
   println this.testname
   println this.instance
-  prinln this.work
+  println this.work
   println work
   if (name == '') {
     block.call()
