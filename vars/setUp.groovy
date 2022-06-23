@@ -31,5 +31,8 @@ def call(String name, def script) {
   j.name = 'NEW_NAME'
   println i.name
   println j.name
+  
+  param1 = 'param1'
+  this.param2 = 'param2'
 
 }
