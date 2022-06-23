@@ -21,4 +21,8 @@ class Instance {
   def running_tests() {
     this.script.execute()
   }
+  
+  def print_vars() {
+    this.script.job_name
+  }
 }
