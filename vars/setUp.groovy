@@ -8,6 +8,7 @@ def call(String name) {
   def i = new Instance(this, name)
   println i.name
   i.running_tests()
+  i.print_vars()
   i.set_age()
   println i.age
   
