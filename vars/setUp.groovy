@@ -10,7 +10,6 @@ def call(String name) {
   i.running_tests()
   i.set_age()
   println i.age
-  println i.addr
   
   def j = new Instance(this, 'ANOTHER_NAME')
   println j.name
