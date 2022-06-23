@@ -11,7 +11,7 @@ class Instance {
   }
 
   def set_age() {
-    this.age = 20
+    age = 20
   }
 
   def running_tests() {
