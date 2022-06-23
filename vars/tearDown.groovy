@@ -1,4 +1,5 @@
 def call(String name, Closure block) {
+  work = 'WORKING'
   this.testname = 'test1'
   this.jobname = 'JOB1'
   println this.instance
@@ -25,6 +26,8 @@ def disconnect(String name, Closure block) {
 //   println testname
   println this.testname
   println this.instance
+  prinln this.work
+  println work
   if (name == '') {
     block.call()
   }
