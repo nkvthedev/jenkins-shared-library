@@ -1,6 +1,7 @@
 def call(String name, Closure block) {
-  work = 'WORKING'
-  this.testname = 'test1'
+  work = 'WORKING' // sets up the variable "work" as a "property" of this singleton. Hence the value of this property can be accessed from any other method
+  // in this singleton, either by using "this.work" or simply "work" as part of a statement.
+  this.testname = 'test1' // sets up the variable testname as a property of the singleton.
   this.jobname = 'JOB1'
   println this.instance
   println instance
@@ -20,7 +21,7 @@ def defineVariables() {
 }
 
 def disconnect(String name, Closure block) {
-  def jobname = 'JOB2'
+  def jobname = 'JOB2' // sets up "jobname" as a local variable of this method, not as a property of the singleton.
 //  println this.jobname
   println jobname
 //   println testname
