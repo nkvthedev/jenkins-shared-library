@@ -10,6 +10,7 @@ def call(String name, Closure block) {
 }
 
 def defineVariables() {
+  def instance2 = 'instance2'
   this.instance = 'instance1'
   
 }
