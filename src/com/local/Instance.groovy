@@ -1,6 +1,7 @@
 package com.local
 
 class Instance {
+  // All properties of the class must be defined here.
   def script = null
   def name = ''
   def age = null
