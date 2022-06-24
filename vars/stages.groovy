@@ -6,7 +6,11 @@ Closure get() {
     }
     stage('stage2') {
         echo 'Running stage2'
-      println this.name
+        println this.name
     }
   }
+}
+
+String get_name() {
+  return this.name
 }
