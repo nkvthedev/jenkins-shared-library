@@ -6,6 +6,7 @@ Closure get() {
     }
     stage('stage2') {
         echo 'Running stage2'
+      println this.name
     }
   }
 }
