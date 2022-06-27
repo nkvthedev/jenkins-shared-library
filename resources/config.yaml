@@ -1,0 +1,4 @@
+service: pipeline
+env: ${ENV1}
+pre-build:
+  - Running ${ENV2}
