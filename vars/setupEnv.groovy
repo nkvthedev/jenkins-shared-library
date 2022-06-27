@@ -1,6 +1,5 @@
-Closure call() {
-  return {
-    ENV1 = 'VALUE1'
-    ENV3 = 'VALUE3'
-  }
+def call() {
+  env.ENV1 = 'VALUE1'
+  env.ENV2 = 'VALUE2'
+  env.ENV3 = 'VALUE3'
 }
