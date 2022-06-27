@@ -1,3 +1,3 @@
-def call() {
-  echo 'getting envs'
+def call(Closure body) {
+  body.call()
 }
