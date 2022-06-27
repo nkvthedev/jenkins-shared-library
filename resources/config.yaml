@@ -1,4 +1,4 @@
 service: pipeline
-env: ${ENV5}
+env: "${ENV5}"
 pre-build:
-  - Running ${ENV2}
+  - Running "${ENV2}"
